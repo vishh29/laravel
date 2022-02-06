@@ -31,9 +31,43 @@
         font-size: 62.5%;
     }
 
+    .panel-default {
+        margin-bottom: 0;
+    }
+
     .custom-login {
         height: 80vh;
         padding: 20rem 0;
+    }
+
+    img.slider-img {
+        height: 48rem !important;
+    }
+
+    .carousel-caption {
+        background: #9f9f9f7d;
+    }
+
+    .trending-item {
+        float: left;
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .trending-products-img {
+        height: 10rem;
+    }
+
+    .trending-wrapper {
+        margin: 2rem;
+        /* padding: 2rem; */
+    }
+
+    .trending-wrapper h1 {
+        margin-bottom: 5rem;
     }
 </style>
 
