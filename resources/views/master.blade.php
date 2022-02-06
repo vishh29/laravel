@@ -99,7 +99,8 @@
     }
 
     .detail-img {
-        height: 50rem;
+        height: 30rem;
+        width: 50rem;
         margin: 10rem 0;
     }
 
