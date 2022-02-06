@@ -31,6 +31,11 @@
         font-size: 62.5%;
     }
 
+    .carousel-inner a {
+        list-style: none;
+        text-decoration: none;
+    }
+
     .panel-default {
         margin-bottom: 0;
     }
@@ -68,6 +73,10 @@
 
     .trending-wrapper h1 {
         margin-bottom: 5rem;
+    }
+
+    .detail-img{
+        height: 20rem;
     }
 </style>
 

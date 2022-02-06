@@ -19,9 +19,10 @@ use App\Http\Controllers\ProductController;
 //     return view('welcome');
 // });
 
-// Route::view("/", "login");
-Route::get("/login", function () {
-    return view('login');
-});
+// Route::get("/login", function () {
+//     return view('login');
+// });
+Route::view("/login", "login");
 Route::post("/login", [UserController::class, 'login']);
 Route::get("/", [ProductController::class, 'index']);
+Route::get("detail/{id}", [ProductController::class, 'detail']);
