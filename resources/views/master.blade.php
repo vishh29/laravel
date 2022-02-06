@@ -31,13 +31,28 @@
         font-size: 62.5%;
     }
 
-    .carousel-inner a {
-        list-style: none;
-        text-decoration: none;
+    .navbar-default {
+        margin: 0;
     }
 
-    .panel-default {
+    .carousel-inner,
+    .trending-item,
+    .search-div a {
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .footer {
         margin-bottom: 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #808080c9;
+        padding: 2rem;
+
     }
 
     .custom-login {
@@ -46,37 +61,58 @@
     }
 
     img.slider-img {
-        height: 48rem !important;
+        height: 40rem !important;
     }
 
     .carousel-caption {
         background: #9f9f9f7d;
     }
 
-    .trending-item {
-        float: left;
-        width: 16%;
+    .trending-div {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .trending-item {
+        display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
 
     .trending-products-img {
-        height: 10rem;
+        max-width: 20rem;
+        max-height: 20rem;
     }
 
     .trending-wrapper {
         margin: 2rem;
         /* padding: 2rem; */
+
     }
 
     .trending-wrapper h1 {
         margin-bottom: 5rem;
+        text-align: center;
     }
 
-    .detail-img{
-        height: 20rem;
+    .detail-img {
+        height: 50rem;
+        margin: 10rem 0;
+    }
+
+    .search-box {
+        width: 50rem !important;
+    }
+
+    .search-details p {
+        width: 20%;
+        height: 4rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 </style>
 

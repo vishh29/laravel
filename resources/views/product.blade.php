@@ -40,7 +40,7 @@
 <div class="trending-wrapper">
     <h1>Treanding Products</h1>
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="trending-div">
         @foreach($products as $item)
         <div class="trending-item">
             <a href="detail/{{$item['id']}}">
