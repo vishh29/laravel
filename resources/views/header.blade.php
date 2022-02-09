@@ -3,10 +3,9 @@
 use App\Http\Controllers\ProductController;
 
 $total = 0;
-if (session_name('user')) {
-    return ProductController::cartItem();
-};      
-
+if (session()->has('user')) {
+    $total =  ProductController::cartItem();
+}
 ?>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -35,8 +34,8 @@ if (session_name('user')) {
                 <button type="submit" class="btn btn-default">Search</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/cartlist">Cart Item ({{$total}})</a></li>
                 @if(Session::has('user'))
+                <li><a href="/cartlist">Cart Item ({{$total}})</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
                         <span class="caret"></span></a>

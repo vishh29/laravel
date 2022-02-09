@@ -24,11 +24,12 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+
     }
 
     html {
         font-size: 62.5%;
+        height: 100%;
     }
 
     .navbar-default {
@@ -104,16 +105,28 @@
         margin: 10rem 0;
     }
 
-    .search-box {
-        width: 50rem !important;
+    .search-details {
+        width: 20rem !important;
     }
 
     .search-details p {
-        width: 20%;
-        height: 4rem;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
+    }
+
+    .search-wrapper {
+        margin: 5rem;
+    }
+
+    .search-item {
+        margin: 5rem;
+    }
+
+    .cart-list-devider {
+        border-bottom: 1px solid #ccc;
+        padding: 2rem;
+
     }
 </style>
 

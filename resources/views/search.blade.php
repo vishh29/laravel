@@ -2,10 +2,10 @@
 @section('content')
 
 <div class="product-container">
-    <div class="col-sm-4">
+    <div class="">
         <a href="#">Filter</a>
     </div>
-    <div class="col-sm-4">
+    <div class="">
         <div class="search-wrapper">
             <h3>Search Results</h3>
             <!-- Wrapper for slides -->
