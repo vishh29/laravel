@@ -45,6 +45,7 @@ if (session()->has('user')) {
                 </li>
                 @else
                 <li><a href="/login">LogIn</a></li>
+                <li><a href="/register">Register</a></li>
 
                 @endif
             </ul>
