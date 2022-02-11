@@ -32,7 +32,7 @@
         height: 100%;
     }
 
-    .navbar-default {
+    .navbar-custom {
         margin: 0;
     }
 
@@ -88,9 +88,10 @@
         max-height: 20rem;
     }
 
-    .trending-wrapper {
+    .trending-wrapper,
+    .search-wrapper {
         margin: 2rem;
-        /* padding: 2rem; */
+        padding: 2rem;
 
     }
 
@@ -127,6 +128,10 @@
         border-bottom: 1px solid #ccc;
         padding: 2rem;
 
+    }
+
+    .custom-product {
+        margin-bottom: 3rem;
     }
 </style>
 
