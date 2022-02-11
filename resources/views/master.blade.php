@@ -129,10 +129,6 @@
         padding: 2rem;
 
     }
-
-    .custom-product {
-        margin-bottom: 3rem;
-    }
 </style>
 
 </html>
